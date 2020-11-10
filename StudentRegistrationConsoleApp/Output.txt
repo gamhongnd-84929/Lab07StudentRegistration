@@ -1,0 +1,158 @@
+﻿==== Display all tables and registrations
+Departments
+1: CSIS Computing Studies
+2: ACCT Accounting
+3: MKTG Marketing
+4: FINC Finance
+
+Students
+1: Svetlana Rostov CSIS
+2: Claire Bloome ACCT
+3: Sven Baertschi ACCT
+4: Cesar Chavez FINC
+5: Debra Manning CSIS
+6: Fadi Hadari ACCT
+7: Hanyeng Fen ACCT
+8: Hugo Victor FINC
+9: Lance Armstrong ACCT
+10: Terry Matthews CSIS
+11: Eugene Fei FINC
+12: Michael Thorson CSIS
+13: Simon Li CSIS
+
+Courses
+1: 101 CSIS
+2: 102 CSIS
+3: 101 ACCT
+4: 102 ACCT
+5: 101 FINC
+
+Student Registrations
+1: Svetlana Rostov CSIS registered in 1: 101 CSIS
+1: Svetlana Rostov CSIS registered in 2: 102 CSIS
+1: Svetlana Rostov CSIS registered in 5: 101 FINC
+2: Claire Bloome ACCT registered in 1: 101 CSIS
+3: Sven Baertschi ACCT registered in 3: 101 ACCT
+
+Number of Students Registered
+1: 101 CSIS size: 2
+2: 102 CSIS size: 1
+3: 101 ACCT size: 1
+4: 102 ACCT size: 0
+5: 101 FINC size: 1
+
+==== Register all students in FINC 101
+==== Show updated registrations
+Student Registrations
+1: Svetlana Rostov CSIS registered in 1: 101 CSIS
+1: Svetlana Rostov CSIS registered in 2: 102 CSIS
+1: Svetlana Rostov CSIS registered in 5: 101 FINC
+2: Claire Bloome ACCT registered in 1: 101 CSIS
+2: Claire Bloome ACCT registered in 5: 101 FINC
+3: Sven Baertschi ACCT registered in 3: 101 ACCT
+3: Sven Baertschi ACCT registered in 5: 101 FINC
+4: Cesar Chavez FINC registered in 5: 101 FINC
+5: Debra Manning CSIS registered in 5: 101 FINC
+6: Fadi Hadari ACCT registered in 5: 101 FINC
+7: Hanyeng Fen ACCT registered in 5: 101 FINC
+8: Hugo Victor FINC registered in 5: 101 FINC
+9: Lance Armstrong ACCT registered in 5: 101 FINC
+10: Terry Matthews CSIS registered in 5: 101 FINC
+11: Eugene Fei FINC registered in 5: 101 FINC
+12: Michael Thorson CSIS registered in 5: 101 FINC
+13: Simon Li CSIS registered in 5: 101 FINC
+
+Number of Students Registered
+1: 101 CSIS size: 2
+2: 102 CSIS size: 1
+3: 101 ACCT size: 1
+4: 102 ACCT size: 0
+5: 101 FINC size: 13
+
+==== Add student John Duvee CSIS, then display Student table
+Students
+1: Svetlana Rostov CSIS
+2: Claire Bloome ACCT
+3: Sven Baertschi ACCT
+4: Cesar Chavez FINC
+5: Debra Manning CSIS
+6: Fadi Hadari ACCT
+7: Hanyeng Fen ACCT
+8: Hugo Victor FINC
+9: Lance Armstrong ACCT
+10: Terry Matthews CSIS
+11: Eugene Fei FINC
+12: Michael Thorson CSIS
+13: Simon Li CSIS
+14: John Duvee CSIS
+
+==== Remove student John Duvee CSIS, then display Student table
+Students
+1: Svetlana Rostov CSIS
+2: Claire Bloome ACCT
+3: Sven Baertschi ACCT
+4: Cesar Chavez FINC
+5: Debra Manning CSIS
+6: Fadi Hadari ACCT
+7: Hanyeng Fen ACCT
+8: Hugo Victor FINC
+9: Lance Armstrong ACCT
+10: Terry Matthews CSIS
+11: Eugene Fei FINC
+12: Michael Thorson CSIS
+13: Simon Li CSIS
+
+==== Change student Michael Thorson CSIS,  to Michael Thomas FINC then display Student table
+Students
+1: Svetlana Rostov CSIS
+2: Claire Bloome ACCT
+3: Sven Baertschi ACCT
+4: Cesar Chavez FINC
+5: Debra Manning CSIS
+6: Fadi Hadari ACCT
+7: Hanyeng Fen ACCT
+8: Hugo Victor FINC
+9: Lance Armstrong ACCT
+10: Terry Matthews CSIS
+11: Eugene Fei FINC
+12: Michael Thomas FINC
+13: Simon Li CSIS
+
+==== Remove student Svetlana Rostov CSIS, then display Student table and registrations
+Students
+2: Claire Bloome ACCT
+3: Sven Baertschi ACCT
+4: Cesar Chavez FINC
+5: Debra Manning CSIS
+6: Fadi Hadari ACCT
+7: Hanyeng Fen ACCT
+8: Hugo Victor FINC
+9: Lance Armstrong ACCT
+10: Terry Matthews CSIS
+11: Eugene Fei FINC
+12: Michael Thomas FINC
+13: Simon Li CSIS
+
+Student Registrations
+2: Claire Bloome ACCT registered in 1: 101 CSIS
+2: Claire Bloome ACCT registered in 5: 101 FINC
+3: Sven Baertschi ACCT registered in 3: 101 ACCT
+3: Sven Baertschi ACCT registered in 5: 101 FINC
+4: Cesar Chavez FINC registered in 5: 101 FINC
+5: Debra Manning CSIS registered in 5: 101 FINC
+6: Fadi Hadari ACCT registered in 5: 101 FINC
+7: Hanyeng Fen ACCT registered in 5: 101 FINC
+8: Hugo Victor FINC registered in 5: 101 FINC
+9: Lance Armstrong ACCT registered in 5: 101 FINC
+10: Terry Matthews CSIS registered in 5: 101 FINC
+11: Eugene Fei FINC registered in 5: 101 FINC
+12: Michael Thomas FINC registered in 5: 101 FINC
+13: Simon Li CSIS registered in 5: 101 FINC
+
+Number of Students Registered
+1: 101 CSIS size: 1
+2: 102 CSIS size: 0
+3: 101 ACCT size: 1
+4: 102 ACCT size: 0
+5: 101 FINC size: 12
+
